@@ -1,0 +1,11 @@
+const playerName = "Mario";
+let currentLives = 3;
+const level1 = 25;
+const level2= 30;
+const level3 = 45;
+const totalCoins = level1 + level2 + level3;
+const avgCoins = totalCoins/3;
+const remainderCoins = totalCoins%3;
+console.log ("Tong coin cua 3 level:", totalCoins );
+console.log ("Gia tri trung binh:", avgCoins );
+console.log ("Số coin dư:", remainderCoins );
